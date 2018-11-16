@@ -1,0 +1,14 @@
+[Unit]
+Description=w48d
+After=network.target
+
+[Service]
+User=root
+Group=root
+ExecStart=/usr/sbin/w48d
+
+[Install]
+WantedBy=multi-user.target
+
+
+
